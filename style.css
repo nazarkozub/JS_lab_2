@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    background-color: #8dade9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .center {
+    align-self: center;
+  }
+  
+  .flow-right {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 246, 91);
+    height: 100vh;
+  }
+  
+  .title, .controls, .button {
+    flex: none;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+  .todo-list {
+    flex: 1 1 0;
+    margin-top: 20px;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .todo-delete {
+    background-color: #c3c3c3;
+    border-radius: 15px;
+  }
+  .todo-checkbox {
+    margin: 10px;
+  }
+  
+  .todo-container {
+    padding: 20px;
+    border-bottom: 1px solid #c3c3c3;
+  }
+  
+  .todo-container:first-of-type {
+    border-top: 1px solid #c3c3c3;
+  }
